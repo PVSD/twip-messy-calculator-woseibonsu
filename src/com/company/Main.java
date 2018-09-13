@@ -9,7 +9,14 @@ public class Main {
 
         if (operation.toLowerCase() == "add" )
         {
-            System.out.printl,
+            System.out.println("Enter the first term:");
+            int firstTerm = kbInput.nextInt();
+            System.out.println("Enter the second term:");
+            int secondTerm = kbInput.nextInt();
+            System.out.println(secondTerm + firstTerm);
+
+
+
         }
 
 
